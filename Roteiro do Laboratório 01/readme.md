@@ -27,6 +27,7 @@
 - :white_check_mark: Terceiro problema = [palindromo.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/palindromo.c)
 
     Exemplo de saídas:
+    
     ![palindromo](https://user-images.githubusercontent.com/75337290/158450080-00dd03c9-361b-46b8-aceb-feeceabe345e.png)
 - :x: Quarto problema = ?
 - :x: Quinto problema = ?
