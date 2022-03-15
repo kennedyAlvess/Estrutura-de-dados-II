@@ -2,7 +2,7 @@
 
 #### Grupo formado por:
 
-:small_blue_diamond: Kennedy Alves Pereir.
+:small_blue_diamond: Kennedy Alves Pereira.
 > <kennedy.pereira@alunos.ufersa.edu.br> 
 
 :small_blue_diamond: Anderson Duarte de Paiva.
