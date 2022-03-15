@@ -20,14 +20,14 @@ int algoritmoDemorado ( int n) {
  int main (){
 
      int n;
-     printf("\nInforme um valor inteiro para N: ");
+     printf("\nInforme um valor inteiro para N: "); //Em vez de definir um valor fixo a N, deixei a escolha do usuario.
      scanf("%d",&n);
 
-    clock_t start = clock ();
+    clock_t start = clock ();//Iniciando a função utilizada para saber o tempo de execução da cpu.
     algoritmoDemorado(n);
-    clock_t end = clock ();
+    clock_t end = clock ();//Terminando a função utilizada para saber o tempo de execução da cpu.
 
     double execution_time = ((double) (end - start)) / CLOCKS_PER_SEC;
-    printf("\nA CPU do meu computador levou %f segundos para executar o algoritmo com N = %d\n\n",execution_time,n);
+    printf("\nA CPU do meu computador levou %f segundos para executar o algoritmo com N = %d\n\n",execution_time,n);//Resolvi retornar uma mensagem com mais informações (valor de N).
 
  }
