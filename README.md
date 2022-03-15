@@ -9,6 +9,6 @@
 :small_blue_diamond: Anderson Duarte de Paiva.
 - <anderson.paiva@alunos.ufersa.edu.br>
 
-1. Lista Roteiro de Laboratório 01
+### 1. [Lista Roteiro de Laboratório 01](https://github.com/kennedyAlvess/Estrutura-de-dados-II/tree/main/Roteiro%20do%20Laboratório%2001)
 
 
