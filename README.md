@@ -14,6 +14,6 @@
 
 - :white_check_mark: Primeiro problema = ***TempoDeExecução.c*** *(Feito em aula junto ao professor)*.
 Exemplos de saidas do algoritmo pelo meu computador: 
-![Saida 1 com N=10](/imagens/N=10.jpg "Tempo de execução com N = 10")
+
 
  
