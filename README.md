@@ -16,5 +16,11 @@
 > ![N=100](https://user-images.githubusercontent.com/75337290/158285255-e7734c7a-8406-4ed9-8d42-31072d67e23c.png)
 > ![N=1000](https://user-images.githubusercontent.com/75337290/158285258-a6acb558-f7f3-4496-9f9f-6ce705c2d0f1.png)
 
+- :x: Segundo problema = ?
+- :x: Terceiro problema = ?
+- :x: Quarto problema = ?
+- :x: Quinto problema = ?
+- :x: Sexto problema = ?
+
 
  
