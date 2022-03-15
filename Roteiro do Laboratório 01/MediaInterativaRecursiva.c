@@ -11,11 +11,9 @@ float media_interativa(float *res, int n){
     }
     else{
         float soma_interativa = 0;
-
         for( int i = 0; i < n ; i++){
             soma_interativa += res[i];
         }
-
         float mediaInterativa = (1/(float)n)*soma_interativa;
         return mediaInterativa;
     }
@@ -26,7 +24,7 @@ float media_recursiva(float *res, int n){
     if (n == 0) {
         return 0;}
     else{
-        return (res[n - 1] + (n-1)*media_recursiva(res, n - 1)) / n;;}//Parte recursiva onde chama a função dentro da propria função
+        return (res[n - 1] + (n-1)*media_recursiva(res, n - 1)) / n;}//Parte recursiva onde chama a função dentro da propria função
 }
 
 
@@ -43,7 +41,7 @@ float* gerador ( size_t n) {
 
  int main () {
     printf ("Sequencia aleatoria \n");
-    size_t n = 100;
+    size_t n = 100000;
     float *res = gerador (n);
     
     for ( size_t i = 0; i < n ; i ++) {
@@ -51,12 +49,11 @@ float* gerador ( size_t n) {
     }
 
     float MI = media_interativa(res,n);
-    float MR = media_recursiva(res,n);
-   
     printf("Media Interativa dos numeros: %f\n",MI);
+    float MR = media_recursiva(res,n);
     printf("Media Recursiva dos numeros: %f\n",MR);
 
 /*Discutindo com o meu colega de grupo acabamos por perceber algo interessante na complexidade das duas
-funções, pois ao testar o algoritmo com um numero grande, ex: 100000, a função recursiva acabou se tornando 
-mais complexa do que a interativa, fazendo com que nem chegasse a ser executada*/
+funções, a função recursiva chegou a ser mais complexa do que a interativa, fazendo com que nem chegasse 
+a ser executada corretamente em alguns casos*/
  }
