@@ -3,9 +3,10 @@
 #include <time.h >
 #include <math.h>
 
+//Criação da função para calcular a media de forma interativa
 float media_interativa(float *res, int n){
 
-    if(n == 0){
+    if(n == 0){ //condição caso não tenha nenhum numero no vetor - também utilizado na função recursiva
         return 0;
     }
     else{
@@ -20,11 +21,12 @@ float media_interativa(float *res, int n){
     }
 }
 
+//Criação da função  para calcular a media de forma recursiva
 float media_recursiva(float *res, int n){
     if (n == 0) {
         return 0;}
     else{
-        return (res[n - 1] + (n-1)*media_recursiva(res, n - 1)) / n;;}
+        return (res[n - 1] + (n-1)*media_recursiva(res, n - 1)) / n;;}//Parte recursiva onde chama a função dentro da propria função
 }
 
 
@@ -53,4 +55,8 @@ float* gerador ( size_t n) {
    
     printf("Media Interativa dos numeros: %f\n",MI);
     printf("Media Recursiva dos numeros: %f\n",MR);
+
+/*Discutindo com o meu colega de grupo acabamos por perceber algo interessante na complexidade das duas
+funções, pois ao testar o algoritmo com um numero grande, ex: 100000, a função recursiva acabou se tornando 
+mais complexa do que a interativa, fazendo com que nem chegasse a ser executada*/
  }
