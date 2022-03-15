@@ -22,7 +22,7 @@ int main(){
     int ini = 0;
     char *frase=malloc(sizeof(char)*1000);
 
-    printf("\nInforme o frase ou frase a ser analisada se e palidromo ou nao:\n");
+    printf("\nInforme o nome a ser analisada se e palidromo ou nao:\n");
     fgets (frase, 1000, stdin);
 
     int resp = palindromo(frase,strlen(frase)-1,ini);
