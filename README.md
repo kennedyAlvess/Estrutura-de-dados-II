@@ -20,6 +20,7 @@
 - :x: Terceiro problema = ?
 - :x: Quarto problema = ?
 - :x: Quinto problema = ?
+- :x: Sexto problema = ?
 - :x: Setimo problema = ?
 - :x: Oitavo problema = ?
 - :x: Desafio 1 problema = ?
