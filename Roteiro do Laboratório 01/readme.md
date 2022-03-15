@@ -2,7 +2,7 @@
  
  >  Lista composta por 8 problemas e 2 desafios a serem solucionados.
 
-- :white_check_mark: Primeiro problema = ***TempoDeExecução.c*** *(Feito em aula junto ao professor)*.
+- :white_check_mark: Primeiro problema = [TempoDeExecução.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/tempoDeExecução.c) *(Feito em aula junto ao professor)*.
 
     Exemplos de saidas do algoritmo:
 
@@ -10,7 +10,7 @@
     > ![N=100](https://user-images.githubusercontent.com/75337290/158285255-e7734c7a-8406-4ed9-8d42-31072d67e23c.png)
     > ![N=1000](https://user-images.githubusercontent.com/75337290/158285258-a6acb558-f7f3-4496-9f9f-6ce705c2d0f1.png)
 
-- :white_check_mark: Segundo problema = ***MediaInterativaRecursiva.c.***
+- :white_check_mark: Segundo problema = [MediaInterativaRecursiva.c.](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/MediaInterativaRecursiva.c)
 
     Exemplos de saida:
     > Média de 1.000 números 
