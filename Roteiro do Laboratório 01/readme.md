@@ -35,7 +35,7 @@
 
     Exemplo de saída:
     - ![vetorinverso](https://user-images.githubusercontent.com/75337290/159529252-30ad3b3f-b822-4fc1-a96c-2e4d2735bf43.png).
-- :white_check_mark: Sétimo problema = (raizQuadrada.c)[https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/raizQuadrada.c]
+- :white_check_mark: Sétimo problema = [raizQuadrada.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/raizQuadrada.c)
 
     Exemplo de saída:
     > Parâmetros (13,3.5,0.001)
