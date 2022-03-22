@@ -46,5 +46,5 @@
     - ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75337290/159579254-cdfb0b8e-7c6a-4d4a-aaa2-46a69f54677b.gif).
     > Depurando a função fatorial:
     - ![ezgif com-gif-maker2](https://user-images.githubusercontent.com/75337290/159579799-1ccf4456-b0ef-464d-bfb6-5ec7eef016e5.gif).
-- :x: Desafio 1 problema = ?
-- :x: Desafio 2 problema = ?
+- :x: Desafio 1  (Opcional)...
+- :x: Desafio 2  (Opcional)...
