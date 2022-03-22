@@ -21,9 +21,16 @@
 - :white_check_mark: Terceiro problema = [palindromo.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/palindromo.c)
 
     Exemplo de saídas:
-    - ![palindromo](https://user-images.githubusercontent.com/75337290/158451282-7d869288-dcdb-400d-92f7-fd3f769d47a4.png)
-- :x: Quarto problema = ?
-- :x: Quinto problema = ?
+    - ![palindromo](https://user-images.githubusercontent.com/75337290/158451282-7d869288-dcdb-400d-92f7-fd3f769d47a4.png).
+
+- :white_check_mark: Quarto problema = [binomio.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/binomio.c)
+
+    Exemplo de saída:
+    - ![binomio1](https://user-images.githubusercontent.com/75337290/159483558-b16a65ef-cea2-4b61-a8e8-048ea6f532d4.png)
+    > Caso seja passado argumentos de forma invalida:
+    - ![binomioerro](https://user-images.githubusercontent.com/75337290/159483635-11396354-88a0-42e1-b8e5-6977e4160803.png).
+
+- :x: Quinto problema = (Questão cancelada pelo professor).
 - :x: Sexto problema = ?
 - :x: Setimo problema = ?
 - :x: Oitavo problema = ?
