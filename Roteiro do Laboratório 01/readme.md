@@ -31,7 +31,10 @@
     - ![binomioerro](https://user-images.githubusercontent.com/75337290/159483635-11396354-88a0-42e1-b8e5-6977e4160803.png).
 
 - :x: Quinto problema = (Questão cancelada pelo professor).
-- :x: Sexto problema = ?
+- :white_check_mark: Sexto problema = [vetorInverso.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/vetorInverso.c)
+
+    Exemplo de saída:
+    - ![vetorinverso](https://user-images.githubusercontent.com/75337290/159529252-30ad3b3f-b822-4fc1-a96c-2e4d2735bf43.png).
 - :x: Setimo problema = ?
 - :x: Oitavo problema = ?
 - :x: Desafio 1 problema = ?
