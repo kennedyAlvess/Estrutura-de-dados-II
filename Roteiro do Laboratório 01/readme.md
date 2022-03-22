@@ -40,6 +40,11 @@
     Exemplo de saída:
     > Parâmetros (13,3.5,0.001)
     - ![raizq](https://user-images.githubusercontent.com/75337290/159562363-df345934-cbbc-4bd7-8023-e69a84477756.png).
-- :x: Oitavo problema = ?
+- :white_check_mark: Oitavo problema = [fatorial.c](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Roteiro%20do%20Laboratório%2001/fatorial.c)
+
+    > Depurando a função com cauda:
+    - ![ezgif com-gif-maker](https://user-images.githubusercontent.com/75337290/159579254-cdfb0b8e-7c6a-4d4a-aaa2-46a69f54677b.gif).
+    > Depurando a função fatorial:
+    - ![ezgif com-gif-maker2](https://user-images.githubusercontent.com/75337290/159579799-1ccf4456-b0ef-464d-bfb6-5ec7eef016e5.gif).
 - :x: Desafio 1 problema = ?
 - :x: Desafio 2 problema = ?
