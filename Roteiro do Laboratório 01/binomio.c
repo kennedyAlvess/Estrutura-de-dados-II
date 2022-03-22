@@ -2,14 +2,14 @@
 
 int binomio(int n, int k){
 
-    if(n == 0 && k > 0){
+    if(n == 0 && k > 0){        //Testando se foram repassados argumentos validos para o calculo
         return 0;
     }
     else if( n >= 0 && k == 0){
         return 1;
     }
     else{
-        return binomio(n-1, k-1) + binomio(n-1, k);
+        return binomio(n-1, k-1) + binomio(n-1, k); //Chamada recursiva da função binomio
     }
 
 }
