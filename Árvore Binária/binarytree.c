@@ -51,44 +51,44 @@ void preordemRec(noRaiz raiz){
 
 noRaiz remover(noRaiz raizz, Aluno X){
 
-    if(raizz == NULL){
+    if(raizz == NULL){  //Verifica se a arvore é vazia ou não
         printf("Arvore vazia.\n");
         return NULL;
     }
     else{
-        if (X->id > raizz->A->id){
+        if (X->id > raizz->A->id){ //Descobrindo recursivamente o Nó o qual vai ser removido utilizando a busca na arvore binaria
             raizz->dir = remover(raizz->dir,X);
         }
         else if (X->id < raizz->A->id){
             raizz->esq = remover(raizz->esq,X);
         }
         else{
-            if(raizz->dir == NULL && raizz->esq == NULL){
+            if(raizz->dir == NULL && raizz->esq == NULL){ //Primeira forma de remoção - Nó folha
                 free(raizz);
                 return NULL;
             }
-            else if(raizz->dir != NULL && raizz->esq == NULL){
-                    noRaiz aux = raizz->dir;
+            else if(raizz->dir != NULL && raizz->esq == NULL){ // Segunda forma de remoção - Nó com 1 filho a direita
+                    noRaiz aux = raizz->dir; // Salvando sub-arvore da direita do Nó para poder remover o Nó
                     free(raizz);
                     return aux;
                 }
-            else if(raizz->dir == NULL && raizz->esq != NULL){
-                    noRaiz aux = raizz->esq;
+            else if(raizz->dir == NULL && raizz->esq != NULL){ // Segunda forma de remoção - Nó com 1 filho a esquerda
+                    noRaiz aux = raizz->esq; // Salvando sub-arvore da esquerda do Nó para poder remover o Nó
                     free(raizz);
                     return aux;
                 }
-            else{
-                noRaiz aux = raizz->dir;
-                while(aux->esq != NULL){
+            else{ // Terceira forma de remoção - Nó com 2 filhos
+                noRaiz aux = raizz->dir; 
+                while(aux->esq != NULL){ // Iniciando a busca do menor Nó folha da sub-arvore a direita
                     aux = aux->esq;
                 }
-                Aluno B = criarAluno(aux->A->id,aux->A->nome,aux->A->nota);
-                remover(raizz,B);
-                raizz->A = B;
+                Aluno B = criarAluno(aux->A->id,aux->A->nome,aux->A->nota); //Salvando o conteudo do Nó folha encontrado
+                remover(raizz,B); // Removendo o nó folha
+                raizz->A = B; // // Nó com 2 filhos (removido) substituido pelo Nó folha encontrado anteriormente
                 
              }
         }
-     return raizz;
+     return raizz; // retorno caso a função entre na opção de remoção Nó com 2 filhos
         
     }
 }
