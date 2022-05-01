@@ -16,16 +16,7 @@ noRaiz criarArvore(Aluno);
 noRaiz remover(noRaiz, Aluno);
 void preordemRec(noRaiz);
 
-noRaiz min(noRaiz R){
-    if(R != NULL){
-        noRaiz aux = R;
-        while(aux->esq != NULL){
-            aux = aux->esq;
-         }
-        return aux;
-    }
-    return NULL;
-}
+
 
 int main( )
 {
@@ -78,7 +69,7 @@ noRaiz remover(noRaiz raizz, Aluno X){
             raizz->esq = remover(raizz->esq,X);
         }
         else{
-            if(raizz->dir = NULL && raizz->esq == NULL){
+            if(raizz->dir == NULL && raizz->esq == NULL){
                 free(raizz);
                 return NULL;
             }
@@ -93,17 +84,20 @@ noRaiz remover(noRaiz raizz, Aluno X){
                     return aux;
                 }
             else{
-                noRaiz aux = min(raizz->dir);
-                Aluno N = aux->A;
-                raizz = remover(raizz,N);
-                raizz->A = N;
-                return raizz;
-                 }
-                    
+                noRaiz aux = raizz->dir;
+                while(aux->esq != NULL){
+                    aux = aux->esq;
+                }
+                Aluno B = criarAluno(aux->A->id,aux->A->nome,aux->A->nota);
+                remover(raizz,B);
+                raizz->A = B;
+                
              }
         }
+     return raizz;
         
- }
+    }
+}
 
 
 
