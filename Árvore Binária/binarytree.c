@@ -10,12 +10,9 @@ typedef struct node {
 typedef No noRaiz;
 
 
-
-
 noRaiz criarArvore(Aluno);
 noRaiz remover(noRaiz, Aluno);
 void preordemRec(noRaiz);
-
 
 
 int main( )
@@ -29,9 +26,6 @@ int main( )
     r->esq = criarArvore(D);
     r->dir = criarArvore(C);
     
-
-       
-
     preordemRec(r);
     printf("\n");
     remover(r,K);
