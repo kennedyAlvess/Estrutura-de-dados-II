@@ -16,14 +16,23 @@ noRaiz criarArvore(Aluno);
 noRaiz remover(noRaiz, Aluno);
 void preordemRec(noRaiz);
 
-
+noRaiz min(noRaiz R){
+    if(R != NULL){
+        noRaiz aux = R;
+        while(aux->esq != NULL){
+            aux = aux->esq;
+         }
+        return aux;
+    }
+    return NULL;
+}
 
 int main( )
 {
 
     Aluno C = criarAluno(15, "Pedro\0", 8);
     Aluno D = criarAluno(8, "Henrique\0", 7);
-    Aluno K = criarAluno(10, "Kennedy Lopes\0", 9);
+    Aluno K = criarAluno(10, "Kennedy\0", 9);
 
     noRaiz r = criarArvore(K);
     r->esq = criarArvore(D);
@@ -34,7 +43,7 @@ int main( )
 
     preordemRec(r);
     printf("\n");
-    remover(r,D);
+    remover(r,K);
     preordemRec(r);
 }
 
@@ -48,7 +57,7 @@ noRaiz criarArvore(Aluno A){
 
 
 void preordemRec(noRaiz raiz){
-    if(raiz != 0){
+    if(raiz != NULL){
         printf("%s\n", raiz->A->nome);
         preordemRec(raiz->esq);
         preordemRec(raiz->dir);   
@@ -73,10 +82,28 @@ noRaiz remover(noRaiz raizz, Aluno X){
                 free(raizz);
                 return NULL;
             }
+            else if(raizz->dir != NULL && raizz->esq == NULL){
+                    noRaiz aux = raizz->dir;
+                    free(raizz);
+                    return aux;
+                }
+            else if(raizz->dir == NULL && raizz->esq != NULL){
+                    noRaiz aux = raizz->esq;
+                    free(raizz);
+                    return aux;
+                }
+            else{
+                noRaiz aux = min(raizz->dir);
+                Aluno N = aux->A;
+                raizz = remover(raizz,N);
+                raizz->A = N;
+                return raizz;
+                 }
+                    
+             }
         }
-    }
-
-}
+        
+ }
 
 
 
