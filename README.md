@@ -9,6 +9,8 @@
 :small_blue_diamond: Anderson Duarte de Paiva.
 - <anderson.paiva@alunos.ufersa.edu.br>
 
-## 1. [Lista Roteiro de Laboratório 01](https://github.com/kennedyAlvess/Estrutura-de-dados-II/tree/main/Roteiro%20do%20Laboratório%2001)
+## 1. [Lista Roteiro de Laboratório 01 - Primeira Unidade](https://github.com/kennedyAlvess/Estrutura-de-dados-II/tree/main/Roteiro%20do%20Laboratório%2001)
+
+## 2. [Árvore Binária - Segunda Unidade](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Árvore%20Binária/binarytree.c)
 
 
