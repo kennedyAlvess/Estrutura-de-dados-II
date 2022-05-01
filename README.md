@@ -11,6 +11,6 @@
 
 ## 1. [Lista Roteiro de Laboratório 01 - Primeira Unidade](https://github.com/kennedyAlvess/Estrutura-de-dados-II/tree/main/Roteiro%20do%20Laboratório%2001)
 
-## 2. [Árvore Binária - Segunda Unidade](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Árvore%20Binária/binarytree.c)
+## 2. [Árvore Binária (Função Remover) - Segunda Unidade](https://github.com/kennedyAlvess/Estrutura-de-dados-II/blob/main/Árvore%20Binária/binarytree.c)
 
 
