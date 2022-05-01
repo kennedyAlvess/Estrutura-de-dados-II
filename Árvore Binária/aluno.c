@@ -8,9 +8,9 @@ typedef struct aluno{
     float nota;
 }*Aluno;
 
-Aluno criarAluno(int a, char* b, float c){
+Aluno criarAluno(int d, char* b, float c){
     Aluno A =(Aluno) malloc(sizeof(struct aluno));
-    A->id = a;
+    A->id = d;
     A->nome = b;
     A->nota = c;
     return A;
