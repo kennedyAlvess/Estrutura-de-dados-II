@@ -2,7 +2,6 @@
 #include<stdio.h>
 #include<math.h>
 
-
 void rotas(double cidLa[], double cidLg[]){
     FILE *f = fopen("tourar9152.tour.txt", "r");
     int a, b;
@@ -68,7 +67,6 @@ int main(){
         }
     }
     
-
     int k=0;
     while (!feof(arquivo))
     {
@@ -104,7 +102,4 @@ int main(){
     printf("Maior rota entre a cidade: %d e %d\n",maiorrota[0],maiorrota[1]);
     printf("Media de distancia entre as cidades: %lf\n",media/cont);
     rotas(cidLa,cidLg);
-
-
-
 }
